@@ -145,7 +145,7 @@ const ImgContainer = styled.a`
     bottom: 0;
     z-index: 3;
     transition: ${theme.transition};
-    background-color: ${colors.navy};
+    background-color: ${colors.darkViolet};
     mix-blend-mode: screen;
   }
 `;

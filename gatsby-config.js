@@ -20,7 +20,7 @@ module.exports = {
         short_name: 'LeviLian',
         start_url: '/',
         background_color: config.darkNavyColor,
-        theme_color: config.navyColor,
+        theme_color: config.darkVioletColor,
         display: 'minimal-ui',
         icon: 'src/images/logo.png',
       },

@@ -1,10 +1,8 @@
-# V4
+# Levi's personal website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status)](https://app.netlify.com/sites/brittanychiang/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status)](https://https://app.netlify.com/sites/admiring-panini-6d14fb/deploys)
 
-> The fourth iteration of brittanychiang.com built with [Gatsby](https://www.gatsbyjs.org/) and hosted with [Netlify](https://www.netlify.com/)
-
-[Looking for v3?](https://bchiang7.github.io/) 👀
+> Built with [Gatsby](https://www.gatsbyjs.org/) and hosted with [Netlify](https://www.netlify.com/)
 
 ## 🛠 Installation
 
@@ -50,7 +48,7 @@
 
 | Color          | Hex                                                         |
 | -------------- | ----------------------------------------------------------- |
-| Navy           | ![](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
+| Dark Violet           | ![](https://via.placeholder.com/10/2D283E?text=+) `#2D283E` |
 | Dark Grey      | ![](https://via.placeholder.com/10/333f58?text=+) `#333f58` |
 | Slate          | ![](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
 | Light Slate    | ![](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
@@ -58,10 +56,7 @@
 | White          | ![](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
 
-## 🚨 Forking this repo
+## 🚨 Acknowledgements
 
-Many people have contacted me asking me if they can use this code for their own websites. The answer to that question is _usually_ "yes", with attribution. There are some cases, such as using this code for a business or something that is greater than a personal project, that I may be less comfortable saying yes to. If in doubt, please don't hesitate to ask me.
+Thanks to Britany Chiang for open-sourcing the original website https://brittanychiang.com and allowing developers around the world to learn about building for the web. 
 
-I value keeping this site open source, but as you all know, _**plagiarism is bad**_. I spent a non-negligible amount of effort developing, designing, and trying to perfect this iteration of my website, and I am proud of it! All I ask is to not claim this effort as your own.
-
-So, feel free to fork this repo. If you do, please just give me proper credit by linking back to my website, https://brittanychiang.com. Refer to this handy [quora post](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) if you're not sure what to do. Thanks!
