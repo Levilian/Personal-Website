@@ -20,7 +20,24 @@ const IconLogo = () => (
   //     </g>
   //   </g>
   // </svg>
-<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+
+  <svg viewBox="0 0 84 96" role="img" xmlns="http://www.w3.org/2000/svg">
+    <title>Logo</title>
+    <g id="Logo" transform="translate(-8.000000, -2.000000)">
+    <path
+        d="M44.3138 61.4705V61.9705H44.8138H61.19V65.5H40.04V35.8H44.3138V61.4705Z"
+        fill="#64FFDA"
+        />
+    <path
+        stroke="#64FFDA"
+        strokeWidth="5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M50 5L11 27V72L50 95L89 73V28L50 5Z"
+        />
+    </g>
+  </svg>
+/* <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
 <path d="M91.5349 24.3452L52.6992 1.50324C51.1235 0.576435 49.1676 0.583468 47.5985 1.52158L9.43418 24.3397C7.92438 25.2424 7 26.8721 7 28.6311V71.3689C7 73.128 7.92438 74.7576 9.43418 75.6603L47.5985 98.4784C49.1676 99.4165 51.1235 99.4236 52.6992 98.4968L91.5349 75.6549C93.0622 74.7565 94 73.117 94 71.3451V28.6549C94 26.883 93.0622 25.2435 91.5349 24.3452Z" fill="#091931" stroke="#091931"/>
 <g filter="url(#filter0_d)">
 <path d="M67.5508 69.155H43.9258V25.2448H36.0508V75.9753H67.5508V69.155Z" fill="#60F3D2"/>
@@ -37,7 +54,7 @@ const IconLogo = () => (
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
 </defs>
-</svg>
+</svg> */
 );
 
 export default IconLogo;
