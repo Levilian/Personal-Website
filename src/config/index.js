@@ -48,7 +48,7 @@ module.exports = {
   ],
 
   twitterHandle: '@levilian1',
-  googleAnalyticsID: 'UA-45666519-2',
+  googleAnalyticsID: 'UA-125915487-1',
 
   navHeight: 100,
 
