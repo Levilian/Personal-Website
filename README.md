@@ -15,7 +15,7 @@
 2. **Install and use the correct version of Node using NVM**
 
    ```sh
-   nvm install
+   npm install
    ```
 
 3. **Install dependencies**
@@ -42,6 +42,11 @@
 
    ```sh
    npm run serve
+   ```
+
+   Alternatively, use
+   ```sh
+   gatsby build
    ```
 
 ## 🎨 Colors
