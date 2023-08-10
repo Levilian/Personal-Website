@@ -1,10 +1,10 @@
 module.exports = {
-  siteTitle: 'Levi Lian | Product Manager',
+  siteTitle: 'Levi Lian | Founder',
   siteDescription:
     'Levi Lian is a product manager based in Palo Alto, CA specializing in building human-centered products across web and mobile &#40;Android and iOS&#41;, and occasionally in the physical world.',
   siteKeywords:
-    'Levi Lian, Levi, Lian, levilian1, Shengjia Lian, stanford, treehacks',
-  siteUrl: 'https://brittanychiang.com',
+    'Levi Lian, Levi, Lian, levilian1, Shengjia Lian, stanford',
+  siteUrl: 'https://levilian.com',
   siteLanguage: 'en_US',
 
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
@@ -48,7 +48,7 @@ module.exports = {
   ],
 
   twitterHandle: '@levilian1',
-  googleAnalyticsID: 'UA-125915487-1',
+  googleAnalyticsID: 'G-B2D9J07CFY',
 
   navHeight: 100,
 
