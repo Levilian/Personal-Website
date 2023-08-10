@@ -15,7 +15,7 @@
 2. **Install and use the correct version of Node using NVM**
 
    ```sh
-   npm install
+   nvm install
    ```
 
 3. **Install dependencies**
