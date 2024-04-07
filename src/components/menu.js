@@ -103,8 +103,8 @@ const Menu = ({ menuOpen, toggleMenu }) => {
                 </NavListItem>
               ))}
           </NavList>
-          <ResumeLink href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
-            Resume
+          <ResumeLink href="https://coda.io/@levi-lian/personal-website" target="_blank" rel="nofollow noopener noreferrer">
+            New Site
           </ResumeLink>
         </NavLinks>
       </Sidebar>

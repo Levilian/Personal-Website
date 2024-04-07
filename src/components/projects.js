@@ -125,8 +125,8 @@ const Projects = ({ data }) => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
-    <ProjectsContainer>
-      <ProjectsTitle ref={revealTitle}>Other Projects</ProjectsTitle>
+    <ProjectsContainer id="projects">
+      <ProjectsTitle ref={revealTitle}>Publications</ProjectsTitle>
       <ProjectsGrid>
         <TransitionGroup className="projects">
           {projectsToShow &&
@@ -177,11 +177,11 @@ const Projects = ({ data }) => {
                         <ProjectDescription dangerouslySetInnerHTML={{ __html: html }} />
                       </header>
                       <footer>
-                        <TechList>
+                        {/* <TechList>
                           {tech.map((tech, i) => (
                             <li key={i}>{tech}</li>
                           ))}
-                        </TechList>
+                        </TechList> */}
                       </footer>
                     </ProjectInner>
                   </Project>
@@ -191,9 +191,9 @@ const Projects = ({ data }) => {
         </TransitionGroup>
       </ProjectsGrid>
 
-      <ShowMoreButton onClick={() => setShowMore(!showMore)}>
+      {/* <ShowMoreButton onClick={() => setShowMore(!showMore)}>
         {showMore ? 'Fewer' : 'More'} Projects
-      </ShowMoreButton>
+      </ShowMoreButton> */}
     </ProjectsContainer>
   );
 };

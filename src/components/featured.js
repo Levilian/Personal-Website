@@ -203,7 +203,7 @@ const Featured = ({ data }) => {
   const featuredProjects = data.filter(({ node }) => node.frontmatter.show === 'true');
 
   return (
-    <FeaturedContainer id="projects">
+    <FeaturedContainer>
       <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
 
       <div>

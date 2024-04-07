@@ -278,10 +278,10 @@ class Nav extends Component {
                 <CSSTransition classNames="fadedown" timeout={3000}>
                   <div style={{ transitionDelay: `600ms` }}>
                     <ResumeLink
-                      href="https://coda.io/@levi-lian/product-blog"
+                      href="https://coda.io/@levi-lian/personal-website"
                       target="_blank"
                       rel="nofollow noopener noreferrer">
-                      Resume
+                      New Site
                     </ResumeLink>
                   </div>
                 </CSSTransition>

@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Levi Lian | Founder',
   siteDescription:
-    'Levi Lian is a product manager based in Palo Alto, CA specializing in building human-centered products across web and mobile &#40;Android and iOS&#41;, and occasionally in the physical world.',
+    'Levi Lian is a founder of Yona.ai',
   siteKeywords:
     'Levi Lian, Levi, Lian, levilian1, Shengjia Lian, stanford',
   siteUrl: 'https://levilian.com',
@@ -10,8 +10,8 @@ module.exports = {
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
 
   name: 'Levi Lian',
-  location: 'Palo Alto, CA',
-  email: 'levilian@stanford.edu',
+  location: 'New York, NY',
+  email: 'levi@yona.ai',
   github: 'https://github.com/Levilian/',
   socialMedia: [
     {
@@ -33,14 +33,14 @@ module.exports = {
       name: 'About',
       url: '#about',
     },
-    {
-      name: 'Experience',
-      url: '#jobs',
-    },
     // {
-    //   name: 'Work',
-    //   url: '#projects',
+    //   name: 'Experience',
+    //   url: '#jobs',
     // },
+    {
+      name: 'Publications',
+      url: '#projects',
+    },
     {
       name: 'Contact',
       url: '#contact',

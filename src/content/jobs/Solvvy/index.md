@@ -1,10 +1,10 @@
 ---
 date: '2019-08-24'
 title: 'Product Management Intern'
-company: 'Solvvy, Inc.'
+company: 'Accountable: Achieving Goals with Accountability'
 location: 'San Mateo, CA'
 range: 'June 2019 - August 2019'
-url: 'https://www.solvvy.com/'
+url: '/accountable.pdf'
 ---
 
 - Built and delivered the Solvvy mobile developer platform (iOS and Android SDKs) in a native language
