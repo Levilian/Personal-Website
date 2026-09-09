@@ -2,7 +2,7 @@
 
 Personal site at [levilian.com](https://levilian.com).
 
-A single page. No framework UI, no loader, no sidebar. The writing is the site.
+Writing, papers, and the evaluation harness — not a resume.
 
 ## Local
 
