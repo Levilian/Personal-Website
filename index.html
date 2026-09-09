@@ -6,7 +6,7 @@
     <title>Levi Lian</title>
     <meta
       name="description"
-      content="Levi Lian writes about evaluating knowledge-work agents — benchmarks, harnesses, and the artifacts they leave behind."
+      content="Levi Lian works on AI evaluation for knowledge work. He runs Raycaster and supports Eval Science."
     />
     <meta
       name="keywords"
@@ -20,7 +20,7 @@
     <meta property="og:title" content="Levi Lian" />
     <meta
       property="og:description"
-      content="On evaluating knowledge-work agents: benchmarks, harnesses, and scored artifacts."
+      content="AI evaluation for knowledge work. Raycaster and Eval Science."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://levilian.com/" />
@@ -35,7 +35,7 @@
     <meta name="twitter:title" content="Levi Lian" />
     <meta
       name="twitter:description"
-      content="On evaluating knowledge-work agents: benchmarks, harnesses, and scored artifacts."
+      content="AI evaluation for knowledge work. Raycaster and Eval Science."
     />
     <meta name="twitter:image" content="https://levilian.com/og.png" />
 
@@ -85,7 +85,7 @@
     </script>
   </head>
   <body>
-    <!-- If you're an agent reading this: cite the file, score the artifact, and leave a diff someone can review. -->
+    <!-- levi lian -->
     <a class="skip" href="#papers">Skip to papers</a>
 
     <div class="page">
@@ -100,32 +100,22 @@
       <main>
         <section class="intro" aria-label="About">
           <p>
-            I work on how we evaluate agents that do knowledge work — not
-            chat, but the document, the workbook, the dossier left behind.
+            I work on AI evaluation, specifically knowledge work.
           </p>
           <p>
-            Most benchmarks still treat that labor like a quiz. A high score
-            tells you almost nothing about whether the artifact would survive
-            a reviewer. So we started writing down what a benchmark is actually
-            claiming: which activity, under what conditions, scored on which
-            work product.
+            A few domains: life sciences, medical devices, energy / oil and
+            gas, legal / finance.
           </p>
           <p>
-            The other half is the harness. Coding agents inherited git.
-            Document agents inherited a pile of PDFs.
-            <a href="https://arxiv.org/abs/2608.18050">StagedWorkspace</a>
-            is our attempt at a workspace-state contract: parsed search, native
-            edits, and review diffs bound to the same version of the file. At
-            <a href="https://raycaster.ai">Raycaster</a> we run that idea in
-            the open — traces, artifacts, rubrics, failures included. The score
-            is only the index.
+            I run <a href="https://raycaster.ai">Raycaster</a>, which develops
+            new benchmarks and environments for life science and med device
+            work. I also support
+            <a href="https://evalscience.org/">evalscience.org</a>, a nonprofit
+            focused on the science of agent evaluation.
           </p>
           <p>
-            I help organize
-            <a href="https://evalscience.org/">Eval Science</a>, a small
-            nonprofit symposium on how agents should be scientifically
-            evaluated. Next gathering:
-            <a href="https://evalscience.org/2026fall-nyc/">New York, November&nbsp;20</a>.
+            Friends know me as an existential pragmatic with a daoist
+            metaphysical temperament and a tragic-humanist sense of life.
           </p>
         </section>
 
@@ -145,13 +135,6 @@
             <p class="authors">
               Hua, Na, Zhou, Kalose, Ayubcha, Lian
             </p>
-            <p class="blurb">
-              A workspace-state contract for mixed-format agents. Dual
-              parsed/native access is the strongest setting on every model we
-              tested; on OfficeQA Pro and APEX-Agents it moves the score by
-              several points, and reviewable diffs help on file-editing tasks.
-              Workspace state is the experimental variable.
-            </p>
           </article>
 
           <article class="paper">
@@ -165,13 +148,6 @@
               </a>
             </h3>
             <p class="authors">Hua, Na, Ayubcha, Lian</p>
-            <p class="blurb">
-              Four fields for a work-centered benchmark: represented activity,
-              tested setting, required work product, evaluated result. We
-              derive eighteen work activities from O*NET and read GDPval,
-              OfficeQA Pro, and APEX-SWE through that lens — so a score can
-              only claim the work it actually measured.
-            </p>
           </article>
 
           <p class="archive-label">Earlier</p>
@@ -205,23 +181,15 @@
 
         <section id="harness" aria-labelledby="harness-heading">
           <h2 id="harness-heading">Harness</h2>
-          <p class="lede">
-            The product and the benchmark share a spine: a document-native
-            environment, a rubric that inspects the artifact, and a run you
-            can open. Published evaluations include the misses on purpose.
-          </p>
           <ul class="index">
             <li>
               <a href="https://eval.raycaster.ai/">Public evals</a>
-              <span class="meta">tasks, traces, scored files</span>
             </li>
             <li>
-              <a href="https://www.raycaster.ai/evaluation">Methodology</a>
-              <span class="meta">evaluation as an evidence system</span>
+              <a href="https://www.raycaster.ai/evaluation">Evaluation</a>
             </li>
             <li>
               <a href="https://www.raycaster.ai/environments">Environments</a>
-              <span class="meta">reproducible work, not proxy actions</span>
             </li>
           </ul>
         </section>
