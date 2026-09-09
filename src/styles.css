@@ -118,7 +118,7 @@ a:focus-visible {
   width: var(--page);
   margin: 0 auto;
   padding: clamp(4.25rem, 15vh, 8rem) 0 5.75rem;
-  animation: rise 0.75s ease both;
+  animation: rise 0.55s ease both;
 }
 
 .page::before {
@@ -134,11 +134,9 @@ a:focus-visible {
 
 @keyframes rise {
   from {
-    opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(8px);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }

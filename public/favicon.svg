@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#f3efe6"/>
-  <text
-    x="16"
-    y="23"
-    text-anchor="middle"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="20"
-    font-weight="600"
-    fill="#1b1916"
-  >L</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Levi Lian">
+  <title>Levi Lian</title>
+  <style>
+    .bg { fill: #f3efe6; }
+    .mark { fill: #9a3412; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #141210; }
+      .mark { fill: #e8b298; }
+    }
+  </style>
+  <rect class="bg" width="32" height="32" rx="6"/>
+  <path class="mark" d="M22.18 25.5H22.01L20.3 24.73H11.84V23.87H21.96L19.97 24.24L23.22 19.35L23.59 19.46ZM13.99 7.43V24.73H8.41V24.34L10.6 23.79V7.43L8.41 6.9V6.5H16.18V6.9Z"/>
 </svg>
