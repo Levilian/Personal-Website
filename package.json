@@ -3,7 +3,7 @@
   "private": true,
   "version": "2.0.0",
   "description": "Levi Lian's personal website",
-  "author": "Levi Lian <levi@raycaster.ai>",
+  "author": "Levi Lian",
   "license": "MIT",
   "type": "module",
   "scripts": {
