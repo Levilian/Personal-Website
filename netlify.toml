@@ -14,6 +14,14 @@
   [headers.values]
     Content-Type = "application/pdf"
 
+# twitter:player iframes /og-player.html on twitter.com, so it cannot keep the
+# site-wide DENY. Browsers ignore unrecognized X-Frame-Options values, which
+# drops the restriction on this static embed page only.
+[[headers]]
+  for = "/og-player.html"
+  [headers.values]
+    X-Frame-Options = "ALLOWALL"
+
 [[redirects]]
   from = "/*"
   to = "/404.html"

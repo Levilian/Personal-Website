@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Levi Lian</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #f3efe6; height: 100%; }
+  video { display: block; width: 100vw; height: 100vh; object-fit: contain; }
+</style>
+</head>
+<body>
+<video autoplay muted loop playsinline controls preload="auto"></video>
+<script>
+  // Only our own /videos/*.mp4 assets may be loaded through this player.
+  var fallback = '/videos/levilian-tour.mp4';
+  var requested = new URLSearchParams(location.search).get('v') || fallback;
+  var safe = /^\/videos\/[\w.-]+\.mp4$/.test(requested) ? requested : fallback;
+  document.querySelector('video').src = safe;
+</script>
+</body>
+</html>
